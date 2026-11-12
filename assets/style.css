@@ -1136,3 +1136,53 @@ a:focus-visible {
   }
 
 }
+
+
+/* 20. FOUNDER
+   ========================================================= */
+
+.founder-section {
+  padding: var(--section-space) 32px;
+  background: var(--cream);
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  align-items: start;
+  gap: 64px;
+  width: min(var(--container), 100%);
+  margin: 0 auto;
+}
+
+.founder-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.founder-content h2 {
+  margin-bottom: 26px;
+}
+
+.founder-content p {
+  max-width: 640px;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.founder-meta {
+  color: var(--sage-dark);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .founder-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .founder-photo {
+    max-width: 340px;
+  }
+}
