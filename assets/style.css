@@ -639,6 +639,18 @@ p {
   line-height: 1.9;
 }
 
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 36px;
+}
+
+.contact-section .btn-secondary {
+  border-color: var(--navy);
+}
+
 
 /* 14. FOOTER
    ========================================================= */
