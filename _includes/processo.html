@@ -1,1 +1,32 @@
 
+<section class="process-section" id="metodo">
+
+  <div class="section-heading">
+    <span class="section-eyebrow">IL NOSTRO METODO</span>
+    <h2>Un percorso strutturato, orientato ai risultati.</h2>
+    <p>
+      Ogni intervento segue un processo che integra analisi,
+      progettazione e miglioramento continuo.
+    </p>
+  </div>
+
+  <div class="process-grid">
+
+    {% for fase in site.data.processo %}
+
+      <article class="process-card">
+
+        <span class="process-number">{{ fase.number }}</span>
+
+        <h3>{{ fase.title }}</h3>
+
+        <p>{{ fase.description }}</p>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
