@@ -1,1 +1,43 @@
 
+- number: "01"
+  title: "Business Intelligence & Data Analytics"
+  description: "Trasformiamo i dati aziendali in informazioni strutturate e strumenti di supporto alle decisioni."
+  activities:
+    - Integrazione e organizzazione delle fonti dati
+    - Progettazione di database e modelli informativi
+    - Dashboard direzionali e operative
+    - Definizione e monitoraggio dei KPI
+    - Automazione dei flussi di reporting
+
+- number: "02"
+  title: "FP&A & Controllo di Gestione"
+  description: "Progettiamo sistemi di pianificazione e controllo per comprendere costi, marginalità e performance economico-finanziarie."
+  activities:
+    - Contabilità analitica e sistemi di costing
+    - Analisi dei costi e della marginalità
+    - Budget e forecasting
+    - Analisi degli scostamenti
+    - Pianificazione e monitoraggio dei flussi di cassa
+    - KPI per il monitoraggio delle performance economiche
+
+- number: "03"
+  title: "Process Engineering"
+  description: "Analizziamo e riprogettiamo i processi aziendali per ridurre inefficienze, sprechi e colli di bottiglia."
+  activities:
+    - Mappatura e analisi dei processi
+    - Individuazione delle inefficienze operative
+    - Analisi dei flussi e dei tempi di lavoro
+    - Ottimizzazione dell'impiego delle risorse
+    - Definizione di indicatori di performance operativa
+    - KPI per il monitoraggio delle performance aziendali
+
+- number: "04"
+  title: "Sistemi di Controllo & Adeguati Assetti"
+  description: "Supportiamo le imprese nella strutturazione di sistemi informativi e strumenti di monitoraggio degli equilibri aziendali."
+  activities:
+    - Progettazione dei flussi informativi
+    - Definizione di indicatori e KPI
+    - Sistemi di reporting periodico
+    - Pianificazione e monitoraggio degli equilibri aziendali
+    - Supporto alla strutturazione degli assetti organizzativi, amministrativi e contabili
+
