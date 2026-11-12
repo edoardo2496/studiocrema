@@ -1,1 +1,77 @@
 
+---
+layout: default
+title: Articoli
+description: Approfondimenti su controllo di gestione, Business Intelligence, analisi dei dati e ottimizzazione dei processi aziendali.
+permalink: /blog/
+---
+
+<section class="blog-page">
+
+  <div class="blog-intro">
+
+    <span class="section-eyebrow">STUDIO CREMA · APPROFONDIMENTI</span>
+
+    <h1>
+      Idee, analisi e strumenti
+      per comprendere meglio l'impresa.
+    </h1>
+
+    <p>
+      Approfondimenti sui sistemi di controllo,
+      sulla gestione delle performance e
+      sull'organizzazione dei processi aziendali.
+    </p>
+
+  </div>
+
+  <div class="blog-grid">
+
+    {% assign articles = site.posts | sort: "date" | reverse %}
+
+    {% for post in articles %}
+
+      <article class="blog-card">
+
+        <div class="blog-card-meta">
+
+          {% if post.categories.size > 0 %}
+            <span>{{ post.categories | first }}</span>
+          {% endif %}
+
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%d/%m/%Y" }}
+          </time>
+
+        </div>
+
+        <h2>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+
+        {% if post.subtitle %}
+          <p>{{ post.subtitle }}</p>
+        {% elsif post.excerpt %}
+          <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+        {% endif %}
+
+        <a href="{{ post.url | relative_url }}" class="blog-read-more">
+          Leggi l'articolo →
+        </a>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+  {% if site.posts.size == 0 %}
+    <p class="blog-empty">
+      I primi approfondimenti saranno pubblicati prossimamente.
+    </p>
+  {% endif %}
+
+</section>
+
