@@ -12,7 +12,10 @@ description: Studio Crema affianca le imprese nella progettazione dei sistemi di
 <section class="services-section" id="servizi">
 
   <div class="section-heading">
-    <span class="section-eyebrow">AREE DI INTERVENTO</span>
+
+    <span class="section-eyebrow">
+      AREE DI INTERVENTO
+    </span>
 
     <h2>
       Competenze integrate per governare
@@ -23,12 +26,15 @@ description: Studio Crema affianca le imprese nella progettazione dei sistemi di
       Affianchiamo le imprese attraverso strumenti di analisi,
       pianificazione e miglioramento dei processi aziendali.
     </p>
+
   </div>
 
   <div class="services-grid">
 
     {% for servizio in site.data.servizi %}
+
       {% include servizio.html servizio=servizio %}
+
     {% endfor %}
 
   </div>
