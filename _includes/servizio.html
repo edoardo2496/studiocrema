@@ -1,1 +1,27 @@
 
+<article class="service-card">
+
+  <div class="service-number">
+    {{ include.servizio.number }}
+  </div>
+
+  <div class="service-content">
+
+    <h3>
+      {{ include.servizio.title }}
+    </h3>
+
+    <p class="service-description">
+      {{ include.servizio.description }}
+    </p>
+
+    <ul class="service-activities">
+      {% for activity in include.servizio.activities %}
+        <li>{{ activity }}</li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</article>
+
