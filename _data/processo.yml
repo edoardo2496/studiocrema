@@ -1,1 +1,17 @@
 
+- number: "01"
+  title: "Comprendere"
+  description: "Analizziamo il contesto aziendale, gli obiettivi, i processi e le criticità per comprendere le reali esigenze dell'impresa."
+
+- number: "02"
+  title: "Progettare"
+  description: "Definiamo un modello di intervento, individuando strumenti, indicatori e soluzioni coerenti con la struttura e gli obiettivi aziendali."
+
+- number: "03"
+  title: "Implementare"
+  description: "Traduciamo il progetto in strumenti operativi, sistemi di controllo e processi concreti, accompagnando l'impresa nella loro introduzione."
+
+- number: "04"
+  title: "Migliorare"
+  description: "Monitoriamo i risultati, analizziamo gli scostamenti e individuiamo nuove opportunità di miglioramento."
+
